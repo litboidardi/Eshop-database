@@ -1,0 +1,265 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+body{
+	font-family: 'Numans', sans-serif;
+	background-image: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg');
+	background-size: cover;
+	background-position: center	center;
+	background-repeat: no-repeat;
+}
+.topnav {
+background-color: rgba(0,0,0,0.5) !important;
+    overflow: hidden;
+}
+
+form.nav{
+ 	margin:0px; padding:0px; display:inline;
+}
+
+.red{
+	color:black;
+	background-color:#B40000;
+}
+
+input[type=submit]{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: rgba(0,0,0,0.7) !important;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type=submit].Action{
+ font-size: 14px;
+ font-weight: 600;
+ color: #E44C4C;
+ cursor: pointer;
+ border-bottom: 1px solid #E44C4C;
+ padding:0px;
+ background-color: rgba(0,0,0,0) !important;
+}
+
+.topnav a, .topnav input[type=submit]{
+  float: left;
+  color: #f2f2f2;
+  background-color: rgba(0,0,0,0) !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 0px;
+}
+
+a.clickable:hover, .topnav input[type=submit]:hover{
+  background-color: #999999;
+  color: #FFC312;
+  cursor: pointer;
+}
+.topnav a.active {
+  background-color: #4f4f4f;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 10rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.card {
+background-color: rgba(0,0,0,0.5) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.card img {
+    float: left;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.title{
+	font-weight: 400;
+	font-size: 30px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: white;
+  background-color: rgba(0,0,0,0.25) !important;
+}
+
+tr:nth-child(even) {
+ background-color: rgba(0,0,0,0.5) !important;
+ color: white;
+}	
+
+.cart-body{
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.cart{
+ margin-top: 25px;
+ padding-bottom: 40px;
+ width: 85%;
+ height: 70%;
+background-color: rgba(0,0,0,0.5) !important;
+ box-shadow: 0px 25px 40px #737373;
+}
+
+.Header{
+ margin: auto;
+ width: 90%;
+ height: 10%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.Heading{
+ font-size: 28px;
+ font-weight: 700;
+ color: white;
+}
+
+.items{
+ margin: auto;
+ width: 90%;
+ height: 30%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.image-box{
+ width: 15%;
+ text-align: center;
+}
+.about{
+ margin-left: -150px;
+ height: 100%;	
+ min-width:300px;
+}
+.title{
+ padding-top: 5px;
+ line-height: 10px;
+ font-size: 32px;
+ font-weight: 800;
+ color: white;
+}
+.subtitle{
+ line-height: 10px;
+ font-size: 18px;
+ font-weight: 600;
+ color: #909090;
+}
+
+.prices{
+ height: 100%;
+ text-align: right;
+}
+.amount{
+ font-size: 30px;
+ font-weight: 800;
+ color: white;
+}
+hr{
+ width: 66%;
+ float: right;
+ margin-right: 5%;
+}
+.checkout{
+ float: right;
+ margin-right: 5%;
+ width: 28%;
+}
+.total{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+.Subtotal{
+ font-size: 22px;
+ font-weight: 700;
+ color: white;
+}
+.total-amount{
+ font-size: 40px;
+ font-weight: 900;
+ color: white;
+}
+.payment{
+ margin-top: 10px;
+ width: 100%;
+ height: 40px;
+ border: none;
+ cursor: pointer;
+ font-size: 16px;
+ font-weight: 600;
+ color: white;
+}
+.discount{
+ font-size: 16px;
+ font-family: ‘Open Sans’;
+ font-weight: 500;
+ color: #909090;
+ line-height: 10px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #292d33;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.container {
+  border: 4px solid #f1f1f1;
+  padding: 16px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+}
